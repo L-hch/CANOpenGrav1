@@ -1,0 +1,2 @@
+Warning[2002] C:\canopennode\_src\CANopen\PIC18_with_Microchip_C18\CO_driver.c 395 : unknown pragma 'MSG_PIC18F258_in_USE'
+Warning[2066] C:\canopennode\_src\CANopen\PIC18_with_Microchip_C18\CO_driver.c 595 : type qualifier mismatch in assignment
