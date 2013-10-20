@@ -38,16 +38,15 @@ CANOpenGrav1
    
     Bit5    ->  Reload Settings
    
-   
-    DIP switch Sw-1 (bit 0) to Sw-6 (bit 5)  select the Node ID.
+DIP switch Sw-1 (bit 0) to Sw-6 (bit 5)  select the Node ID.
       The real Node ID is an offset from the DIP swicth  + ODD_CANnodeID from CO_OD.H
      
      
            
-  This is basically a test bench code to see if it is possible.
+This is basically a test bench code to see if it is possible.
   
-  One module at 1MBS bus use 10% bandwith if only the Accelerometer values ( 2 MPU6050) are send at 500 Sample/sec Than 7 modules are
-  the maximum load possible. If it is 100 Samples/sec than it will be possible to use 35 modules. 
+One module at 1MBS bus use 10% bandwith if only the Accelerometer values ( 2 MPU6050) are send at 500 Sample/sec Than 7 modules are
+the maximum load possible. If it is 100 Samples/sec than it will be possible to use 35 modules. 
   
   
   
