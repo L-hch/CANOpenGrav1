@@ -15,32 +15,32 @@ CANOpenGrav1
 
   Protocol is CanOpen and ,
   
-  TPDO_0 send 16bits signed (accelerometer value for X,Y and Z) from MPU6050 unit 1
-  TPDO_1 send 16bits signed (Gyroscope value for X,Y, and Z) from MPU6050 unit 1
-  TPDO_2 send 16bits signed (accelerometer value for X,Y and Z) from MPU6050 unit 2
-  TPDO_3 send 16bits signed (Gyroscope value for X,Y, and Z) from MPU6050 unit 2
+  - TPDO_0 send 16bits signed (accelerometer value for X,Y and Z) from MPU6050 unit 1
+  - TPDO_1 send 16bits signed (Gyroscope value for X,Y, and Z) from MPU6050 unit 1
+  - TPDO_2 send 16bits signed (accelerometer value for X,Y and Z) from MPU6050 unit 2
+  - TPDO_3 send 16bits signed (Gyroscope value for X,Y, and Z) from MPU6050 unit 2
   
-  RCPD_0 receive Command Control
-  
-   Bit0..1 ->  Sample rate
+  - RCPD_0 receive Command Control
+
+    Bit0..1 ->  Sample rate
                0: 50
                1: 100
                2: 200
                3: 300
                
-   Bit2..3 ->  Acceleration Span
+    Bit2..3 ->  Acceleration Span
                0: +/- 2G
                1: +/- 4G
                2: +/- 8G
                3: +/- 16G
           
-   Bit4    ->  Gyro Enable
+    Bit4    ->  Gyro Enable
    
-   Bit5    ->  Reload Settings
+    Bit5    ->  Reload Settings
    
    
-   DIP switch Sw-1 (bit 0) to Sw-6 (bit 5)  select the Node ID.
-     The real Node ID is an offset from the DIP swicth  + ODD_CANnodeID from CO_OD.H
+    DIP switch Sw-1 (bit 0) to Sw-6 (bit 5)  select the Node ID.
+      The real Node ID is an offset from the DIP swicth  + ODD_CANnodeID from CO_OD.H
      
      
            
