@@ -3,7 +3,7 @@ CANOpenGrav1
 
   Simple CanOpen module which support 2 MPU6050 devices.
   
-  Base source code from sourceforge
+  Base source code from sourceforge  (GPL License)
     http://sourceforge.net/projects/canopennode/files/canopennode/CANopenNode-1.10/
     
   Base code modified to accept microchip PIC18F26K80.
