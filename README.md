@@ -37,6 +37,8 @@ CANOpenGrav1
     Bit4    ->  Gyro Enable
    
     Bit5    ->  Reload Settings
+    
+    P.S.  Command control is saved into flash eeprom. If you change the setting, it will be stored.
    
 DIP switch Sw-1 (bit 0) to Sw-6 (bit 5)  select the Node ID.
       The real Node ID is an offset from the DIP swicth  + ODD_CANnodeID from CO_OD.H
