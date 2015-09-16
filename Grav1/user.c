@@ -320,7 +320,7 @@ void  PrepareTPDO_3(void)
 #endif
 
 #ifdef __SMALL__
-#pragma   MSG_SMALL_MODEL
+  //#pragma   MSG_SMALL_MODEL
 #define  ROMVOID rom void 
 #endif
 

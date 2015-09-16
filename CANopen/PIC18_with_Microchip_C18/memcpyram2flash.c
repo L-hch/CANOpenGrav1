@@ -51,7 +51,7 @@ void memcpyram2flash(rom void* dest, void* src, unsigned int memsize){
    dest -= j;
    while(memsize){
       //read block
-      memcpypgm2ram(romTemp, dest, 64);
+      memcpypgm2ram(romTemp,(rom void far *) dest, 64);
       //determine size of data to be copied into block
       i = 64 - j;
       if(memsize < i) i = memsize;

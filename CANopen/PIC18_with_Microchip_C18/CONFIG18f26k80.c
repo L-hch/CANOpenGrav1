@@ -259,32 +259,32 @@
 //     EBRT0 = ON           Enabled
 //     EBRT0 = OFF          Disabled
 
-#pragma config EBRT0 = OFF
+#pragma config EBTR0 = OFF
 
 //   Table Read Protect 04000-07FFF:
 //     EBRT1 = ON           Enabled
 //     EBRT1 = OFF          Disabled
 
-#pragma config EBRT1 = OFF
+#pragma config EBTR1 = OFF
 
 //   Table Read Protect 08000-0BFFF:
 //     EBRT2 = ON           Enabled
 //     EBRT2 = OFF          Disabled
 //
 
-#pragma config EBRT2 = OFF
+#pragma config EBTR2 = OFF
 
 //   Table Read Protect 0C000-0FFFF:
 //     EBRT3 = ON           Enabled
 //     EBRT3 = OFF          Disabled
 //
 
-#pragma config EBRT3 = OFF
+#pragma config EBTR3 = OFF
 
 //   Table Read Protect Boot:
 //     EBRTB = ON           Enabled
 //     EBRTB = OFF          Disabled
 
-#pragma config EBRTB = OFF
+#pragma config EBTRB = OFF
 #endif
 // Einde van de headerfile CONFIG.H

@@ -597,7 +597,7 @@ unsigned long CO_OD_Read(ROM CO_objectDictionaryEntry* pODE, void* pBuff, unsign
    //read data from memory (processor specific code)
    if((unsigned int)pODE->pData>=0x1000 && (pODE->attribute&ATTR_ROM)){
       CO_DISABLE_ALL();
-      memcpypgm2ram(pBuff, pODE->pData, pODE->length);
+      memcpypgm2ram(pBuff,(ROM void far *) pODE->pData, pODE->length);
       CO_ENABLE_ALL();
    }
    else if((unsigned int)pODE->pData<0x1000 && !(pODE->attribute&ATTR_ROM)){
