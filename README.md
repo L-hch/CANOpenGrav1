@@ -10,6 +10,8 @@ CANOpenGrav1
   
   Also modified to use DIP switch for NodeId
   
+  Update! Modified for MPLAB X IDE but you need to to download MCC18
+  http://ww1.microchip.com/downloads/en/DeviceDoc/mplabc18-v3.47-windows-lite-installer.exe
   
   Canbus speed is set to 1MBS but could be modified using  ODD_CANbitRat  from CO_OD.h (need recompile).
 
